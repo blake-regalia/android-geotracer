@@ -6,8 +6,8 @@ android {
 
     defaultConfig {
         applicationId "net.blurcast.tracer"
-        minSdkVersion 14
-        targetSdkVersion 14
+        minSdkVersion 17
+        targetSdkVersion 17
         compileOptions {
             sourceCompatibility JavaVersion.VERSION_1_5
             targetCompatibility JavaVersion.VERSION_1_5
@@ -23,6 +23,6 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:support-v4:+'
+    compile 'com.android.support:support-v4:20.0.0'
     compile 'com.github.japgolly.android:svg-android:2.0.5'
 }

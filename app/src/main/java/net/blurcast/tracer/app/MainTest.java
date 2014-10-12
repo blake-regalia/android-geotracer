@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import net.blurcast.tracer.R;
 import net.blurcast.tracer.encoder.Cell_Encoder;
 import net.blurcast.tracer.logger._Logger;
 
