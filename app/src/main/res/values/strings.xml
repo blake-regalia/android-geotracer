@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Wireless Access Point Tracer</string>
+    <string name="welcome">This application lets you manage the status of the service</string>
+    <string name="wifi_fail_title">This app cannot run on your device</string>
+    <string name="wifi_fail_content">Sorry, it appears that this application cannot control your WiFi radio. Thank you for participating in the study, but your device is unable to contribute data to the project at this time.</string>
+    <string name="gps_enable_title">GPS must remain enabled</string>
+    <string name="gps_enable_content">This application requires the ability to use your device\'s GPS at certain times throughout the day. Enabling GPS does not actually turn on the unit or waste battery. Other apps that use GPS frequently may hinder your battery life, it is recommended you terminate these apps if you are able to. </string>
+    <string name="gps_enable_prompt">This app only uses GPS when necessary.\nPlease enable GPS</string>
+    <string name="gps_enable_toast">Please enable GPS\nPress the back button for more information</string>
+    <string name="multilineString">b\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\nb\n</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_activity_main_test">MainActivity</string>
+    <string name="serviceControlToggle">Sensor Tracer Service</string>
+    <string name="emptyString"></string>
+    <string name="launchActivity">Launch Monitor Activity</string>
+    <string name="switch_serviceControl">Choose a Provider</string>
+    <string name="title_activity_select_location_provider">Location Provider</string>
+    <string name="title_activity_map_provider">MapProviderActivity</string>
+    <string name="button_selectMapFile">Select a map file (*.gvg)</string>
+    <string name="prefScanType">Select a scan method</string>
+    <string name="prefScanTypeValue">Number of Samples</string>
+    <string name="prefScanAmount">Set number of samples</string>
+    <string name="prefScanAmountValue">1</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <view
+        android:id="@+id/TouchMatrixViewGVG"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="net.blurcast.android.view.TouchMatrixViewGVG" />
+
+    <TextView
+        android:id="@+id/textView_mapStatusTop"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#C2000000"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:text="@string/emptyString"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button_recordingControl"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:enabled="false"
+        android:text="No Control Point Selected" />
+
+    <TextView
+        android:id="@+id/textView_wapInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView_mapStatusTop"
+        android:text="@string/emptyString"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>
